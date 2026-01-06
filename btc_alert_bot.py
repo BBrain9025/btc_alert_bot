@@ -10,7 +10,7 @@ TOKEN = os.environ['TOKEN']
 CHAT_ID = os.environ['CHAT_ID']
 
 PRICE_THRESHOLD = float(os.environ.get('PRICE_THRESHOLD', 700))
-TIME_WINDOW = int(os.environ.get('TIME_WINDOW', 1200))
+TIME_WINDOW = int(os.environ.get('TIME_WINDOW', 3600))
 CHECK_INTERVAL = int(os.environ.get('CHECK_INTERVAL', 60))
 
 # ==================
